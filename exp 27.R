@@ -1,0 +1,8 @@
+data("women")
+print("Women dataset:")
+print(women)
+height_factor <- factor(women$height)
+print("Factor corresponding to height:")
+print(height_factor)
+print("Levels of height factor:")
+print(levels(height_factor))
